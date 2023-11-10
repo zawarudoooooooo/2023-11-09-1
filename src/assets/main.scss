@@ -1,0 +1,15 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/";
+@import "../../src/assets/stylesheet/variables";
+
+body {
+  margin: 0;
+  background-color: #FBF8F1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+  
+}
