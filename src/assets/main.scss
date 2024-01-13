@@ -3,7 +3,6 @@
 @import "../../src/assets/stylesheet/variables";
 
 body {
-  margin: 0;
   background-color: #FBF8F1;
   display: flex;
   align-items: center;
@@ -11,5 +10,10 @@ body {
   flex-direction: column;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   position: relative;
-  
 }
+::-webkit-scrollbar {
+  width: 0 !important;
+}
+::-webkit-scrollbar {
+  width: 0 !important;height: 0;
+}  
